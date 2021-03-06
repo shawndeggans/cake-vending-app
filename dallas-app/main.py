@@ -46,7 +46,7 @@ async def sendDallasTelemetry():
                 "LocationLongitude": -96.80667
             }
         )
-        await asyncio.sleep(3)
+        await asyncio.sleep(900)
 
 async def main():
     await sendDallasTelemetry()
