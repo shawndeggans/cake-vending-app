@@ -65,7 +65,7 @@ async def sendFortWorthTelemetry():
                 "LocationLongitude": -97.32085
             }
         )
-        await asyncio.sleep(5)
+        await asyncio.sleep(900)
 
 async def main():
     await sendFortWorthTelemetry()
